@@ -1,20 +1,103 @@
 aid: apieron
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apieron.png
 name: Apieron
-description: Apieron is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Apieron Inc. was a private, venture-backed medical device company headquartered in Menlo
+  Park, California, formed in early 2001 to develop a simple-to-use, non-invasive monitor for the
+  measurement of exhaled nitric oxide (eNO) as an aid in the management of asthma. Its patented
+  biosensor platform enabled highly sensitive detection of selected analytes, and its Insight eNO
+  System received U.S. Food and Drug Administration clearance and launched in the United States in
+  2008. Following that launch Aerocrine filed patent-infringement complaints against Apieron and
+  Apieron counterclaimed; citing the legal setbacks and a lack of financing, Apieron filed a Chapter 7
+  bankruptcy petition in the U.S. Bankruptcy Court for the Northern District of California on 30 March
+  2010. At a court auction on 12 May 2010 Aerocrine acquired all of Apieron''s business assets,
+  including its patent and trademark portfolio, ending the litigation; the Insight product was
+  discontinued and not returned to supply. Apieron was a clinical-hardware company and never published
+  a public API, developer portal, SDK, or machine-readable interface. This profile is retained as a
+  historical record of the Canaan Partners portfolio and is not an active API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/apieron/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - canaan-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: historical
+x-tier-reason: defunct-2010-no-api-surface
+x-status: defunct
+x-status-detail: Filed Chapter 7 bankruptcy 30 March 2010 (N.D. Cal.); all business assets, patents,
+  and trademarks acquired by Aerocrine AB at a bankruptcy auction on 12 May 2010. The Insight eNO
+  System was discontinued and not returned to supply.
+x-acquired-by: Aerocrine AB
+x-acquired-year: 2010
+x-acquisition-type: bankruptcy-asset-sale
+x-acquisition-source: https://www.globenewswire.com/news-release/2010/04/07/230395/0/en/Aerocrine-provides-update-on-its-legal-action-against-Apieron.html
+x-acquirer-successor: 'Aerocrine AB was itself acquired by Circassia Pharmaceuticals plc in June 2015;
+  Circassia Group plc rebranded to NIOX Group plc in 2022. aerocrine.com no longer resolves (probed
+  2026-07-19); the successor surface is https://www.niox.com/.'
+x-founded-year: 2001
+x-headquarters: Menlo Park, California, United States
+x-sector: Medical Devices
+x-total-funding: $62.6 million
+x-other-investors:
+- Draper Fisher Jurvetson
+- ONSET Ventures
+- Technology Alliance Ventures
+x-domain-status:
+  domain: apieron.com
+  probed: '2026-07-19'
+  result: parked-for-sale
+  note: 'apieron.com resolves and returns HTTP 200, but 307-redirects to a GoDaddy aftermarket
+    for-sale lander. Every probed path returns the identical lander body: /.well-known/security.txt,
+    /.well-known/openid-configuration, /.well-known/oauth-authorization-server,
+    /.well-known/api-catalog and /.well-known/ai-plugin.json all byte-match the response for a
+    randomly generated nonexistent path (md5 e89f75f918dbdcee28604d4e09dd71d7), so those 200 status
+    codes are wildcard false positives and no well-known artifacts were saved. A /llms.txt is served
+    but describes the GoDaddy domain listing rather than the company, and was likewise not saved.'
+x-enrichment:
+  date: '2026-07-19'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  rationale: 'Searched and probed successfully. Entity is defunct (Chapter 7 in 2010; assets absorbed
+    by Aerocrine) and published no API, developer portal, SDK, or specification during its operating
+    life. Its former domain is now a GoDaddy for-sale parking page whose wildcard 200s were rejected
+    as false positives. No artifacts were generated; fabricating any would be unfaithful.'
+x-disambiguation:
+- name: Apeiron
+  url: https://apeiron.io/
+  relationship: unrelated-name-collision
+  note: 'Apeiron (note the different spelling: "Apeiron", not "Apieron") is a present-day
+    communications platform publishing voice/SIP trunking, SMS/MMS, phone number, E911 and cellular
+    MVNE APIs with Postman collections at https://apeiron.io/docs. It is a separate company and is not
+    the Canaan Partners portfolio company profiled here; its API surface must not be attributed to
+    Apieron Inc.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Medical Devices
+- Healthcare
+- Respiratory
+- Asthma
+- Diagnostics
+- Biosensors
+- Acquired
+- Historical
 apis: []
+common:
+- type: Acquirer
+  name: Aerocrine AB (now NIOX Group plc)
+  url: https://www.niox.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
