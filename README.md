@@ -64,6 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Apieron is a company surfaced as a portfolio company of canaan-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: canaan-partners
+Apieron Inc. was a private, venture-backed medical device company headquartered in Menlo Park, California, formed in early 2001 to develop a simple-to-use, non-invasive monitor for the measurement of exhaled nitric oxide (eNO) as an aid in the management of asthma. Its patented biosensor platform enabled highly sensitive detection of selected analytes, and its Insight eNO System received U.S. Food and Drug Administration clearance and launched in the United States in 2008. Following that launch Aerocrine filed patent-infringement complaints against Apieron and Apieron counterclaimed; citing the legal setbacks and a lack of financing, Apieron filed a Chapter 7 bankruptcy petition in the U.S. Bankruptcy Court for the Northern District of California on 30 March 2010. At a court auction on 12 May 2010 Aerocrine acquired all of Apieron's business assets, including its patent and trademark portfolio, ending the litigation; the Insight product was discontinued and not returned to supply. Apieron was a clinical-hardware company and never published a public API, developer portal, SDK, or machine-readable interface. This profile is retained as a historical record of the Canaan Partners portfolio and is not an active API provider.
+
+**Areas:** Company · Medical Devices · Healthcare · Respiratory · Asthma · Diagnostics · Biosensors · Acquired · Historical · Defunct
+
+## Apieron on APIs.io (historical record)
+
+Everything profiled for Apieron is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apieron/](https://apis.io/providers/apieron/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apieron: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apieron/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
